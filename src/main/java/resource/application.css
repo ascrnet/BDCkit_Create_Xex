@@ -1,0 +1,87 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+
+	-fx-background:  #113f67;
+	-fx-padding: 5;
+}
+
+.spacing
+{
+	-fx-spacing: 10;
+	-fx-padding: 5;
+	-fx-alignment: center;
+
+}
+
+.label {
+	-fx-font-weight: bold;
+}
+
+
+.text-field {
+    -fx-background-color: #38598b;
+    -fx-text-fill: white;
+   	-fx-background-radius: 10;
+}
+
+.button {
+    -fx-background-color:  #38598b;
+	-fx-text-fill: white;
+	-fx-background-radius: 20;
+	-fx-pref-width: 100px;
+	-fx-font-weight: bold;
+
+}
+
+.button:hover {
+ 	-fx-background-color: #e7eaf6;
+ 	-fx-text-fill: black;
+ 	-fx-cursor: hand;
+ 	-fx-font-weight: bold;
+}
+
+
+
+.list-view {
+	-fx-background-color: #38598b;
+	-fx-pref-width: 150px;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #38598b;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #32558a;
+    -fx-text-fill: white;
+}
+
+.list-view .scroll-bar {
+	-fx-background-color: #113f67;
+}
+
+
+.list-view .scroll-bar .thumb,  .increment-button, .decrement-button  {
+	-fx-cursor: hand;
+}
+
+
+/*
+ .first-color { 
+	background: #e7eaf6; 
+}
+	
+.second-color { 
+	background: #a2a8d3; 
+}
+
+.third-color { 
+	background: #38598b; 
+}
+
+.fourth-color { 
+	background: #113f67; 
+}
+ */
